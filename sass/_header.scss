@@ -6,6 +6,18 @@ header {
   .logo h1 {
     font-size: 1.8rem;
     font-weight: 600;
+    position: relative;
+    &:before {
+      content: "";
+      position: absolute;
+      top: -40px;
+      left: -50vw;
+      width: calc(120px + 50vw);
+      height: 150px;
+      background-color: var(--secondary-color);
+      border-radius: 0 0 var(--radius-val);
+      z-index: -1;
+    }
   }
   nav {
     display: flex;
@@ -15,7 +27,9 @@ header {
       position: relative;
       font-weight: 500;
       transition: all 0.25s ease-in-out;
+      outline: transparent;
       cursor: pointer;
+      &.active,
       &:hover {
         color: var(--primary-color);
         &::before {
