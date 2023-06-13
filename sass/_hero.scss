@@ -96,7 +96,7 @@
             width: 50%;
             bottom: -4px;
             left: 0;
-            border-radius: 50%;
+            border-radius: 50px;
             transition: all 0.25s ease-in-out;
           }
         }
@@ -252,7 +252,7 @@
     }
 
     &:before {
-      height: 700px;
+      height: 750px;
       width: 97vw;
     }
   }
