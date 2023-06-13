@@ -70,7 +70,7 @@
           transform: translateY(-50%);
           left: -50vw;
           width: calc(28px + 50vw);
-          height: 3px;
+          height: 2px;
           background-color: var(--primary-color);
         }
         .arrow {
@@ -134,10 +134,10 @@
     &:before {
       position: absolute;
       content: "";
-      width: 15px;
-      height: 15px;
+      width: 13px;
+      height: 13px;
       background-color: var(--primary-color);
-      bottom: -7px;
+      bottom: -8px;
       left: 50%;
       transform: translateX(-50%);
       border-radius: 50%;
