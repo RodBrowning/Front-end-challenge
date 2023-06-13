@@ -1,4 +1,4 @@
-import custom from './custom'
+import custom from "./custom";
 window.addEventListener("load", () => {
-    custom()
+  custom();
 });
