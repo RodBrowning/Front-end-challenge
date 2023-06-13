@@ -32,6 +32,20 @@
     margin-top: 1.5em;
     min-height: 370px;
     cursor: pointer;
+
+    &:before {
+      content: "";
+      position: absolute;
+      width: 96px;
+      height: 276px;
+      background-image: url("/img/Ellipses.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: 90px 276px;
+      right: -4.8%;
+      top: 0;
+      z-index: -1;
+    }
     .video-action {
       margin-top: 35px;
       display: flex;
@@ -182,6 +196,9 @@
         bottom: 20%;
         right: 0%;
       }
+      &:before {
+        right: -4%;
+      }
     }
     &:before {
       width: 85vw;
@@ -226,6 +243,11 @@
       .box-3,
       .box-4 {
         display: none;
+      }
+      &:before {
+        width: 65px;
+        height: 225px;
+        right: -3.5%;
       }
     }
 

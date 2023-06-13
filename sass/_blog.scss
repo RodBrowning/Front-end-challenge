@@ -32,6 +32,21 @@
     display: flex;
     flex-wrap: wrap;
     gap: 3rem;
+    position: relative;
+
+    &:before {
+      content: "";
+      position: absolute;
+      width: 187px;
+      height: 133px;
+      background-image: url("/img/Ellipses2.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: 187px 133px;
+      right: -4.8%;
+      top: 0;
+      z-index: -1;
+    }
     .card {
       display: flex;
       flex-direction: column;
@@ -217,6 +232,11 @@
           top: unset;
           right: unset;
         }
+      }
+    }
+    .cards {
+      &:before {
+        top: 55%;
       }
     }
   }
