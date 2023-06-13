@@ -23,6 +23,7 @@ header {
     display: flex;
     gap: 2.5em;
     text-anchor: unset;
+    font-size: 0.85rem;
     a {
       position: relative;
       font-weight: 500;
@@ -33,15 +34,15 @@ header {
       &:hover {
         color: var(--primary-color);
         &::before {
-          height: 25px;
-          bottom: -35px;
+          height: 20px;
+          bottom: -30px;
           background-color: var(--primary-color);
         }
       }
       &::before {
         content: "";
         position: absolute;
-        width: 2px;
+        width: 1px;
         height: 15px;
         background-color: transparent;
         left: 50%;
@@ -56,12 +57,13 @@ header {
     margin-left: auto;
     display: flex;
     column-gap: 35px;
+    font-size: 0.95rem;
     .phone {
       display: flex;
       align-items: center;
       gap: 10px;
       p:first-child {
-        font-weight: 300;
+        font-weight: 400;
         color: var(--tertiary-color);
       }
       label {
