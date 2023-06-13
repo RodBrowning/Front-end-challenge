@@ -1,5 +1,5 @@
 #hero {
-  margin-block: 3em;
+  margin-block: 2.5em;
   .heading {
     display: grid;
     grid-template-columns: 1fr 390px;
@@ -120,10 +120,10 @@
     &:before {
       position: absolute;
       content: "";
-      width: 9px;
-      height: 9px;
+      width: 15px;
+      height: 15px;
       background-color: var(--primary-color);
-      bottom: -4px;
+      bottom: -7px;
       left: 50%;
       transform: translateX(-50%);
       border-radius: 50%;
@@ -155,6 +155,7 @@
 
 @media only screen and (max-width: 1024px) {
   #hero {
+    margin-bottom: 13em;
     &:before {
       height: 670px;
     }
@@ -190,6 +191,7 @@
 
 @media only screen and (max-width: 768px) {
   #hero {
+    margin-bottom: 8em;
     .heading {
       margin-left: 0px;
     }
@@ -228,8 +230,19 @@
     }
 
     &:before {
-      height: 770px;
+      height: 700px;
       width: 97vw;
     }
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  #hero:before {
+    height: 760px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  #hero:before {
+    height: 880px;
   }
 }
