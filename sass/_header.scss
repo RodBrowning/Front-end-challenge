@@ -1,7 +1,7 @@
 header {
   display: flex;
   align-items: center;
-  column-gap: 8vw;
+  column-gap: 9vw;
   padding-block: 2em;
   .logo h1 {
     font-size: 1.8rem;
@@ -21,7 +21,7 @@ header {
   }
   nav {
     display: flex;
-    gap: 3em;
+    gap: 2.5em;
     text-anchor: unset;
     a {
       position: relative;
