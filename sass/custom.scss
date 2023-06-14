@@ -27,11 +27,12 @@ body {
 }
 
 .btn {
+  font-family: "Poppins", sans-serif;
   background-color: transparent;
   font-weight: 600;
   border: 1px solid var(--primary-color);
   border-radius: 50px;
-  padding: 12px 30px;
+  padding: 10px 27px;
   color: var(--primary-color);
   cursor: pointer;
   transition: all 0.25s ease-in-out;

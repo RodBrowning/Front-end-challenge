@@ -2,7 +2,7 @@
   margin-block: 2.5em;
   .heading {
     display: grid;
-    grid-template-columns: 1fr 390px;
+    grid-template-columns: 1fr 375px;
     column-gap: 170px;
     margin-left: 85px;
     .text {
@@ -14,7 +14,8 @@
       }
       p {
         color: var(--tertiary-color);
-        line-height: 1.25rem;
+        line-height: 1.5rem;
+        font-size: 1.15rem;
       }
     }
     .box-1 {
@@ -25,7 +26,7 @@
   .video {
     position: relative;
     display: grid;
-    grid-template-columns: 2fr 3fr 2fr;
+    grid-template-columns: 2fr 3fr 290px;
     align-items: start;
     margin-left: 85px;
     column-gap: 1.5em;
@@ -163,7 +164,7 @@
     background-color: white;
     border-radius: 0 0 var(--radius-val) 0;
     height: 770px;
-    width: 58vw;
+    width: 56vw;
     z-index: -2;
   }
 }
@@ -232,7 +233,7 @@
     }
 
     &:before {
-      height: 850px;
+      height: 810px;
     }
   }
 }
@@ -266,7 +267,7 @@
     }
 
     &:before {
-      height: 720px;
+      height: 740px;
       width: 97vw;
     }
   }
@@ -274,11 +275,11 @@
 
 @media only screen and (max-width: 375px) {
   #hero:before {
-    height: 760px;
+    height: 800px;
   }
 }
 @media only screen and (max-width: 320px) {
   #hero:before {
-    height: 840px;
+    height: 880px;
   }
 }
