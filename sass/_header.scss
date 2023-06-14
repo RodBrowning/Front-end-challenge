@@ -1,8 +1,8 @@
 header {
   display: flex;
   align-items: center;
-  column-gap: 9vw;
-  padding-block: 2em;
+  column-gap: 8vw;
+  padding-block: 2.5em;
   .logo h1 {
     font-size: 1.8rem;
     font-weight: 600;
@@ -10,7 +10,7 @@ header {
     &:before {
       content: "";
       position: absolute;
-      top: -40px;
+      top: -50px;
       left: -50vw;
       width: calc(120px + 50vw);
       height: 150px;
@@ -21,7 +21,7 @@ header {
   }
   nav {
     display: flex;
-    gap: 2.7em;
+    gap: 3em;
     text-anchor: unset;
     font-size: 0.85rem;
     a {
@@ -92,6 +92,7 @@ header {
 
 @media only screen and (max-width: 768px) {
   header {
+    padding-block: 2em;
     flex-wrap: wrap;
   }
 }

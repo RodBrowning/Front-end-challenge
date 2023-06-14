@@ -172,16 +172,10 @@
 @media only screen and (max-width: 1024px) {
   #hero {
     margin-bottom: 13em;
-    &:before {
-      // height: 750px;
-    }
     .heading {
       margin-left: 40px;
       column-gap: 50px;
       grid-template-columns: 1fr 280px;
-      .box-1 {
-        // display: none;
-      }
     }
 
     .video {
