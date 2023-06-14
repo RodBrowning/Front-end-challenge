@@ -55,6 +55,21 @@
       row-gap: 1rem;
       color: var(--primary-color);
       cursor: pointer;
+      &:hover {
+        .action-text {
+          p:first-child:before {
+            width: 85%;
+          }
+        }
+        .video-btn .arrow svg path {
+          &:first-child {
+            opacity: 0;
+          }
+          &:last-child {
+            opacity: 1;
+          }
+        }
+      }
       .video-btn {
         display: flex;
         justify-content: center;
@@ -76,9 +91,18 @@
         }
         .arrow {
           display: flex;
+          margin-left: 5px;
           svg {
+            width: 100px;
             path {
               fill: var(--primary-color);
+              transition: all 0.25s ease-in-out;
+              &:first-child {
+                opacity: 1;
+              }
+              &:last-child {
+                opacity: 0;
+              }
             }
           }
         }
@@ -100,13 +124,6 @@
             left: 0;
             border-radius: 50px;
             transition: all 0.25s ease-in-out;
-          }
-        }
-      }
-      &:hover {
-        .action-text {
-          p:first-child:before {
-            width: 85%;
           }
         }
       }
