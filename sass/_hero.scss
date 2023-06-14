@@ -31,7 +31,6 @@
     column-gap: 1.5em;
     margin-top: 1.5em;
     min-height: 370px;
-    cursor: pointer;
 
     &:before {
       content: "";
@@ -54,6 +53,7 @@
       column-gap: 1rem;
       row-gap: 1rem;
       color: var(--primary-color);
+      cursor: pointer;
       .video-btn {
         display: flex;
         justify-content: center;
