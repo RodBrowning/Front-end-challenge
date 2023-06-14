@@ -1,7 +1,6 @@
 header {
   display: flex;
   align-items: center;
-  column-gap: 8vw;
   padding-block: 2.5em;
   .logo h1 {
     font-size: 1.8rem;
@@ -24,6 +23,7 @@ header {
     gap: 3em;
     text-anchor: unset;
     font-size: 0.85rem;
+    margin-left: 10%;
     a {
       position: relative;
       font-weight: 600;
